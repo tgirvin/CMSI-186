@@ -223,19 +223,19 @@ public class CalendarStuffTester {
       catch( Exception e ) { System.out.println( false ); }
 
       System.out.print( "   Test February 28, 2004 with February 28, 2005  : " );
-      try { System.out.println( CalendarStuff.dateEquals(  2, 29, 2004, 2, 29, 2004 ) ? "equal" : "not equal" ); }
+      try { System.out.println( CalendarStuff.dateEquals(  2, 28, 2004, 2, 28, 2005 ) ? "equal" : "not equal" ); }
       catch( Exception e ) { System.out.println( false ); }
 
       System.out.print( "   Test February 20, 2000 with January 13, 2000  : " );
-      try { System.out.println( CalendarStuff.dateEquals(  2, 29, 2004, 2, 29, 2004 ) ? "equal" : "not equal" ); }
+      try { System.out.println( CalendarStuff.dateEquals(  2, 20, 2000, 1, 13, 2000 ) ? "equal" : "not equal" ); }
       catch( Exception e ) { System.out.println( false ); }
 
       System.out.print( "   Test February 20, 2000 with January 20, 2001  : " );
-      try { System.out.println( CalendarStuff.dateEquals(  2, 29, 2004, 2, 29, 2004 ) ? "equal" : "not equal" ); }
+      try { System.out.println( CalendarStuff.dateEquals(  2, 20, 2001, 1, 20, 2001 ) ? "equal" : "not equal" ); }
       catch( Exception e ) { System.out.println( false ); }
 
       System.out.print( "   Test February 20, 2000 with January 13, 2010  : " );
-      try { System.out.println( CalendarStuff.dateEquals(  2, 29, 2004, 2, 29, 2004 ) ? "equal" : "not equal" ); }
+      try { System.out.println( CalendarStuff.dateEquals(  2, 20, 2000, 1, 13, 2010 ) ? "equal" : "not equal" ); }
       catch( Exception e ) { System.out.println( false ); }
 
    }
@@ -268,9 +268,8 @@ public class CalendarStuffTester {
    */
    static void test_daysBetween() {
 
-     System.out.println ( "\nTWELVE TESTS FOR daysBetween():" );
+      System.out.println ( "\nTWELVE TESTS FOR daysBetween():" );
 
-     System.out.print(CalendarStuff.daysBetween(   3, 15, 2005,  8,  5, 2008  )); 
      System.out.print( "   Counting 0000 days between 03-15-2005 and 03-15-2005 : " );
      try { System.out.println(    0 == CalendarStuff.daysBetween(  3, 15, 2005,  3, 15, 2005 ) ? "zero days " : "bad count" ); }
      catch( Exception e ) { System.out.println( false ); }
