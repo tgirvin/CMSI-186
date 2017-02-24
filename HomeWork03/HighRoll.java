@@ -1,6 +1,6 @@
 //Timothy Girvin 
 //CMSI186
-//Yahtzee.java
+//HighRoll.java
 
 /*
 Finally, make public class file HighRoll.java which uses your dice set to play the game. 
