@@ -1,3 +1,8 @@
+//Timothy Girvin 
+//CMSI186
+//Die.java
+
+
 /** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  *  File name     :  Die.java
  *  Purpose       :  Provides a class describing a single die that can be rolled
